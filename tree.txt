@@ -2,4 +2,4 @@ git clone https://github.com/DerpFest-Devices/device_xiaomi_fleur.git device/xia
 
 
 
-git clone https://gitlab.com/Aghora7/device_xiaomi_fleur.git device/xiaomi/fleur -b oss13 && git clone https://github.com/Aghora7/oss_vendor_xiaomi_fleur vendor/xiaomi/fleur && git clone https://github.com/Aghora7/android_hardware_mediatek hardware/mediatek && git clone https://github.com/Aghora7/kernel_xiaomi_sea kernel/xiaomi/sea && git clone https://github.com/kdrag0n/proton-clang prebuilts/clang/host/linux-x86/proton-clang
+git clone https://gitlab.com/Aghora7/device_xiaomi_fleur.git device/xiaomi/fleur -b oss13 && git clone https://github.com/Aghora7/oss_vendor_xiaomi_fleur vendor/xiaomi/fleur && git clone https://github.com/Aghora7/android_hardware_mediatek hardware/mediatek && git clone https://github.com/Aghora7/kernel_xiaomi_sea kernel/xiaomi/sea --depth=1 && git clone https://github.com/kdrag0n/proton-clang prebuilts/clang/host/linux-x86/proton-clang --depth=1 && git clone https://github.com/AOSP-14-RMX2020/android_device_mediatek_sepolicy_vndr.git device/mediatek/sepolicy_vndr -b arrow-14
